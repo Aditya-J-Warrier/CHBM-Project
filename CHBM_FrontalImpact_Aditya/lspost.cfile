@@ -1,0 +1,24 @@
+$# LS-PrePost command file created by LS-PrePost(R) 2025 R1 (v4.12.6) - 14May2025 -64bit-Window
+$# Created on Dec-29-2025 (18:19:22)
+open keyword "C:\Users\adity\Desktop\COMMAS\Sem 3\CHBM\Project\Files\ViVA_FrontalImpact_SimplifiedNeck\FrontalImpact_modified\run_frontal_impact.key"
+Message 1
+Message 0
+front
+back
+isometric x
+front
+right
+front
+back
+left
+assembly off fem 1
++M B3500001
++M B3500002
++M B3500003
+assembly on fem 1
+bottom
+import keyword nooffset
+shad
+import keyword "C:\Users\adity\Downloads\misc_models-master-Environment-PIPER_ENV_v1.0\misc_models-master-Environment-PIPER_ENV_v1.0\Environment\PIPER_ENV_v1.0\PIPER_ENV_v1.0.dyn"
+Message 1
+Message 0
